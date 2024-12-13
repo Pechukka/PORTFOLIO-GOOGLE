@@ -84,9 +84,9 @@ main > section{
     border: 0.1vw solid var(--bordes);
     padding: 0 1vw;
 }
-.busqueda > img{
+.busqueda>img {
     height: 3vh;
-    width: 1.5vw;
+    width: auto;
 }
 .busqueda_text{
     font-size: 1.2vw;
@@ -127,4 +127,212 @@ footer > p{
 .copyright{
     margin: auto;
     margin-left: 40vw;
+}
+
+/*---------------------------ESTILOS DE PRINCIPAL-----------------------------*/
+
+.principal{
+    height: auto;
+    width: 55vw;
+}
+.resultados_de_busqueda{
+    height: 15vh;
+    margin: 3vh 0;
+}
+.cabecera-articulos{
+    display: flex;
+    gap: 1vw;
+    margin-bottom: 1vh;
+}
+.logo-articulo{
+    height: 4vh;
+    width: auto;
+    border: solid 0.1vw var(--bordes);
+    border-radius: 3vw;
+}
+.enlaces-resultados_de_busqueda{
+    font-size: 1.5vw;
+    color: var(--enlaces-busquedas);
+    text-decoration: none;
+}
+.enlaces-resultados_de_busqueda:hover{
+    text-decoration: underline;
+}
+
+.resultados_de_busqueda > p{
+    width: 40vw;
+}
+
+/* ------------------- RESPONSIVE DESIGN ------------------- */
+
+/* Para pantallas pequeñas (móviles, menos de 768px) */
+@media (max-width: 768px) {
+    :root {
+        --font-size: 3vw;
+        /* Ajustar fuente para móviles */
+    }
+
+    body {
+        font-size: var(--font-size);
+    }
+
+    .cabecera {
+        flex-wrap: nowrap;
+        /* Asegura que los elementos de la cabecera no se apilen */
+        justify-content: space-between;
+        /* Mantén los elementos distribuidos horizontalmente */
+    }
+
+    .nombre-logo {
+        font-size: 6vw;
+        white-space: nowrap;
+    }
+
+
+    .iconos {
+        height: 5vw;
+    }
+
+    .foto_perfil {
+        height: 8vw;
+    }
+
+    .busqueda {
+        width: 100%;
+        margin: 1vw 0;
+        padding: 1vw;
+    }
+    .botones{
+        gap: 5vw;
+    }
+    .busqueda_rapida{
+        width: 20vw;
+        height: 3vh;
+        font-size: 2vw;
+    }
+
+    .busqueda_text {
+        font-size: 3vw;
+        width: 70%;
+        height: 30%;
+    }
+
+    .navegacion {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        margin: 1vw 0;
+    }
+    footer > p{
+        font-size: 2vw;
+    }
+
+    .enlaces {
+        font-size: 3vw;
+    }
+
+    .contenido {
+        flex-direction: column;
+        width: 90vw;
+        margin: 2vw auto;
+    }
+
+    .principal {
+        width: 100%;
+    }
+
+    .resultados_de_busqueda>p {
+        width: 100%;
+    }
+
+    .logo-articulo {
+        height: 6vw;
+    }
+
+    .enlaces-resultados_de_busqueda {
+        font-size: 4vw;
+    }
+}
+
+/* Para tablets (entre 769px y 1024px) */
+@media (min-width: 769px) and (max-width: 1023px) {
+    :root {
+        --font-size: 1.5vw;
+    }
+
+    body {
+        font-size: var(--font-size);
+    }
+
+    .cabecera {
+        width: 95%;
+        margin: 1vw auto;
+    }
+
+    .iconos {
+        height: 3vh;
+    }
+    footer > p{
+        font-size: 2vw;
+    }
+
+    .foto_perfil {
+        height: 5vh;
+    }
+    .botones{
+        gap: 5vw;
+    }
+    .busqueda_rapida{
+        width: 20vw;
+        height: 3vh;
+        font-size: 2vw;
+    }
+
+
+    .busqueda_text {
+        width: 50%;
+    }
+
+    .contenido {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2vw;
+    }
+
+    .principal {
+        width: 60%;
+    }
+
+    .resultados_de_busqueda>p {
+        width: 90%;
+    }
+
+    .enlaces-resultados_de_busqueda {
+        font-size: 2.5vw;
+    }
+}
+
+/* Para pantallas grandes (escritorio, más de 1024px) */
+@media (min-width: 1024px) {
+    body {
+        font-size: 1vw;
+    }
+
+    .cabecera {
+        width: 80vw;
+        margin: 1vw 10vw;
+    }
+    footer > p{
+        font-size: 2vw;
+    }
+
+    .contenido {
+        flex-direction: row;
+        width: 80vw;
+        margin: 1vw auto;
+    }
+
+    .principal {
+        width: 55vw;
+    }
 }
