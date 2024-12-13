@@ -473,8 +473,9 @@
     .enlaces {
         font-size: 3vw;
     }
-
-    .contenido {
+    .cabecera-articulos > div > p{
+        font-size: 2vw;
+    }tenido {
         flex-direction: column;
         width: 90vw;
         margin: 2vw auto;
@@ -484,9 +485,11 @@
         width: 100%;
     }
 
-    .resultados_de_busqueda>p {
+    .resultados_de_busqueda> p, .resultados_de_busqueda> ul > li {
         width: 100%;
+        font-size: 2vw;
     }
+    
 
     .logo-articulo {
         height: 6vw;

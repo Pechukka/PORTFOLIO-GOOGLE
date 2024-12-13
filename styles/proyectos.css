@@ -182,6 +182,12 @@
     }
 
 
+    .resultados_de_busqueda > p{
+        font-size: 3vw;
+    }
+    .cabecera-articulos > div > p{
+        font-size: 2vw;
+    }
     .iconos {
         height: 5vw;
     }

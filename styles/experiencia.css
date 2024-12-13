@@ -222,6 +222,15 @@
         height: 8vw;
     }
 
+    .resultados_de_busqueda> p, .resultados_de_busqueda> ul > li {
+        width: 100%;
+        font-size: 2.5vw;
+    }
+
+    .cabecera-articulos > div > p{
+        font-size: 2vw;
+    }
+
     .busqueda {
         width: 100%;
         margin: 1vw 0;
@@ -303,7 +312,9 @@
     .principal {
         width: 60%;
     }
-
+    p{
+        font-size: 2vw;
+    }
     .resultados_de_busqueda>p {
         width: 90%;
     }

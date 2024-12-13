@@ -255,7 +255,7 @@ footer > p{
 }
 
 /* Para tablets (entre 769px y 1024px) */
-@media (min-width: 769px) and (max-width: 1023px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     :root {
         --font-size: 1.5vw;
     }
@@ -279,7 +279,7 @@ footer > p{
     .foto_perfil {
         height: 5vh;
     }
-    .botones{
+        .botones{
         gap: 5vw;
     }
     .busqueda_rapida{
@@ -309,30 +309,5 @@ footer > p{
 
     .enlaces-resultados_de_busqueda {
         font-size: 2.5vw;
-    }
-}
-
-/* Para pantallas grandes (escritorio, más de 1024px) */
-@media (min-width: 1024px) {
-    body {
-        font-size: 1vw;
-    }
-
-    .cabecera {
-        width: 80vw;
-        margin: 1vw 10vw;
-    }
-    footer > p{
-        font-size: 2vw;
-    }
-
-    .contenido {
-        flex-direction: row;
-        width: 80vw;
-        margin: 1vw auto;
-    }
-
-    .principal {
-        width: 55vw;
     }
 }

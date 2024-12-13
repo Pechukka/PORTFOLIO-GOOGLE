@@ -302,7 +302,7 @@
         font-size: 6vw;
         white-space: nowrap;
     }
-    p{
+    p, strong{
         font-size: 2vw;
     }
 
