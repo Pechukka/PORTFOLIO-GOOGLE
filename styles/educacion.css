@@ -155,19 +155,3 @@
 .resultados_de_busqueda > p{
     width: 40vw;
 }
-
-/*---------------------------ESTILOS DE PIE DE PAGINA-----------------------------*/
-footer{
-    height: 7vh;
-    width: 98vw;
-    background-color: var(--background_color);
-    display: flex;
-    align-items: center;
-}
-footer > p{
-    margin-left: 2vw;
-}
-.copyright{
-    margin: auto;
-    margin-left: 40vw;
-}
