@@ -155,3 +155,67 @@
 .resultados_de_busqueda > p{
     width: 40vw;
 }
+
+/*---------------------------RESPONSIVE DESIGN-----------------------------*/
+
+/* Estilos para móviles */
+@media (max-width: 600px) {
+    .cabecera, .contenido {
+        width: 100vw;
+        margin: 0;
+    }
+    .navegacion {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1vw;
+    }
+    .principal {
+        width: 90vw;
+    }
+    .enlaces-resultados_de_busqueda {
+        font-size: 3vw;
+    }
+    .busqueda_text {
+        width: 70vw;
+    }
+}
+
+/* Estilos para tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .cabecera, .contenido {
+        width: 90vw;
+        margin: 0 5vw;
+    }
+    .navegacion {
+        gap: 2vw;
+    }
+    .principal {
+        width: 80vw;
+    }
+    .enlaces-resultados_de_busqueda {
+        font-size: 2vw;
+    }
+    .busqueda_text {
+        width: 50vw;
+    }
+}
+
+/* Estilos para ordenadores */
+@media (min-width: 1025px) {
+    .cabecera, .contenido {
+        width: 80vw;
+        margin: 1vw 10vw;
+    }
+    .navegacion {
+        gap: 3vw;
+    }
+    .principal {
+        width: 55vw;
+    }
+    .enlaces-resultados_de_busqueda {
+        font-size: 1.5vw;
+    }
+    .busqueda_text {
+        width: 30vw;
+    }
+}
