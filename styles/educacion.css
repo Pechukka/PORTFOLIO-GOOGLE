@@ -475,7 +475,8 @@
     }
     .cabecera-articulos > div > p{
         font-size: 2vw;
-    }tenido {
+    }
+    .contenido {
         flex-direction: column;
         width: 90vw;
         margin: 2vw auto;
@@ -487,7 +488,7 @@
 
     .resultados_de_busqueda> p, .resultados_de_busqueda> ul > li {
         width: 100%;
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
     
 
