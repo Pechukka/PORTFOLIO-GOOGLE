@@ -20,6 +20,9 @@
     font-size: 1vw;
     font-family: Arial, sans-serif;
 }
+body{
+    overflow-x: hidden;
+}
 /*---------------------------ESTILOS DE CABECERA--------------------------------*/
 .cabecera{
     height: 10vh;
@@ -167,6 +170,7 @@
 
     body {
         font-size: var(--font-size);
+        overflow-x: hidden;
     }
 
     .cabecera {
@@ -249,6 +253,7 @@
 
     body {
         font-size: var(--font-size);
+        overflow-x: hidden;
     }
 
     .cabecera {
@@ -291,6 +296,7 @@
 @media (min-width: 1024px) {
     body {
         font-size: 1vw;
+        overflow-x: hidden;
     }
 
     .cabecera {

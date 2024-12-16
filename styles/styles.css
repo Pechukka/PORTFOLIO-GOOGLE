@@ -18,6 +18,10 @@
     font-family: Arial, sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .cabecera{
     height: 8vh;
     width: 100vw;
@@ -174,6 +178,7 @@ footer > p{
 
     body {
         font-size: var(--font-size);
+        overflow-x: hidden;
     }
 
     .cabecera {
@@ -262,6 +267,7 @@ footer > p{
 
     body {
         font-size: var(--font-size);
+        overflow-x: hidden;
     }
 
     .cabecera {
